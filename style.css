@@ -1,2 +1,63 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+:root {
+  /* Primary */
+  --primary-light-red: hsl(0, 100%, 67%);
+  --primary-orangey-yellow: hsl(39, 100%, 56%);
+  --primary-green-teal: hsl(166, 100%, 37%);
+  --primary-cobalt-blue: hsl(234, 85%, 45%);
+
+  /* neutral */
+  --neutral-pale-blue: hsl(221, 100%, 96%);
+  --neutral-light-lavender: hsl(241, 100%, 89%);
+  --neutral-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  /* font-family: 'Hanken Grotesk'; */
+  display: flex;
+  flex-direction: row;
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Style result section */
+  .results-container {
+    
+  }
+
+  /* Style summary section */
+  .summary-container {
+  }
+}
+
+/* Desktop view */
+/* Style result section */
+.results-container {
+}
+
+/* Style summary section */
+.summary-container {
+}
+
+/* footer style */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
