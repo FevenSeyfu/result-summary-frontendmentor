@@ -22,7 +22,7 @@ fetch("./data.json")
       // results section
       const sum = data.reduce((total, item) => total + item.score, 0);
       const averageScore = Math.floor(sum / data.length);
-      const categoryDiv = document.createElement("div");
+      const categoryDiv = document.createElement("article");
       categoryDiv.className = `summary-box ${item.category.toLowerCase()}`;
       categoryDiv.innerHTML = `
         <p class="title">
