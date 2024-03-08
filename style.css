@@ -169,6 +169,7 @@ body {
   height: 56px;
   border-radius: 128px;
   background: #303b59;
+  border: #303b59;
   color: white;
   font-size: 18px;
   font-weight: 700;
@@ -178,6 +179,7 @@ body {
 .summary-container button:hover {
   background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
   cursor: pointer;
+  border: #7755ff;
 }
 
 /* Desktop view */
